@@ -1,0 +1,6 @@
+framework module Pods_HT_LoveUITests {
+  umbrella header "Pods-HT LoveUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,137 @@
+PODS:
+  - Alamofire (4.7.3)
+  - CryptoSwift (0.12.0)
+  - FoldingCell (4.0.1)
+  - Hero (1.3.1)
+  - Kingfisher (4.10.0)
+  - LTMorphingLabel (0.5.7)
+  - Moya (11.0.2):
+    - Moya/Core (= 11.0.2)
+  - Moya/Core (11.0.2):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - NVActivityIndicatorView (4.4.0):
+    - NVActivityIndicatorView/Presenter (= 4.4.0)
+  - NVActivityIndicatorView/Presenter (4.4.0)
+  - ObjectMapper (3.3.0)
+  - PromiseKit (6.5.1):
+    - PromiseKit/CorePromise (= 6.5.1)
+    - PromiseKit/Foundation (= 6.5.1)
+    - PromiseKit/UIKit (= 6.5.1)
+  - PromiseKit/CorePromise (6.5.1)
+  - PromiseKit/Foundation (6.5.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.5.1):
+    - PromiseKit/CorePromise
+  - RAMAnimatedTabBarController (4.0.0)
+  - ReachabilitySwift (4.3.0)
+  - Result (3.2.4)
+  - SkeletonView (1.4.1)
+  - SnapKit (4.0.1)
+  - Spring (1.0.5)
+  - SwifterSwift (4.6.0):
+    - SwifterSwift/AppKit (= 4.6.0)
+    - SwifterSwift/CoreGraphics (= 4.6.0)
+    - SwifterSwift/CoreLocation (= 4.6.0)
+    - SwifterSwift/Foundation (= 4.6.0)
+    - SwifterSwift/MapKit (= 4.6.0)
+    - SwifterSwift/SpriteKit (= 4.6.0)
+    - SwifterSwift/SwiftStdlib (= 4.6.0)
+    - SwifterSwift/UIKit (= 4.6.0)
+  - SwifterSwift/AppKit (4.6.0)
+  - SwifterSwift/CoreGraphics (4.6.0)
+  - SwifterSwift/CoreLocation (4.6.0)
+  - SwifterSwift/Foundation (4.6.0)
+  - SwifterSwift/MapKit (4.6.0)
+  - SwifterSwift/SpriteKit (4.6.0)
+  - SwifterSwift/SwiftStdlib (4.6.0)
+  - SwifterSwift/UIKit (4.6.0)
+  - SwiftLint (0.27.0)
+  - SwiftyJSON (4.2.0)
+  - SwiftyUserDefaults (4.0.0-alpha.1)
+  - SwipeCellKit (2.5.0)
+  - TextFieldEffects (1.5.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - CryptoSwift
+  - FoldingCell
+  - Hero
+  - Kingfisher (~> 4.0)
+  - LTMorphingLabel
+  - Moya (~> 11.0)
+  - NVActivityIndicatorView
+  - ObjectMapper (~> 3.3)
+  - PromiseKit (~> 6.0)
+  - RAMAnimatedTabBarController
+  - ReachabilitySwift
+  - SkeletonView
+  - SnapKit (~> 4.0.0)
+  - Spring (from `https://github.com/MengTo/Spring.git`)
+  - SwifterSwift
+  - SwiftLint
+  - SwiftyJSON (~> 4.0)
+  - SwiftyUserDefaults (= 4.0.0-alpha.1)
+  - SwipeCellKit
+  - TextFieldEffects
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CryptoSwift
+    - FoldingCell
+    - Hero
+    - Kingfisher
+    - LTMorphingLabel
+    - Moya
+    - NVActivityIndicatorView
+    - ObjectMapper
+    - PromiseKit
+    - RAMAnimatedTabBarController
+    - ReachabilitySwift
+    - Result
+    - SkeletonView
+    - SnapKit
+    - SwifterSwift
+    - SwiftLint
+    - SwiftyJSON
+    - SwiftyUserDefaults
+    - SwipeCellKit
+    - TextFieldEffects
+
+EXTERNAL SOURCES:
+  Spring:
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: d507c1244f944dcf675aa46fe024e2b2f40a662c
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  CryptoSwift: 1c07ca50843dd48bc54e6ea53d7a4dba3b645716
+  FoldingCell: acf29a96085b7ab96234be75d543f5640ead0b3c
+  Hero: 1c3c625ba05856f305d29f5c270f8766c5ff2df7
+  Kingfisher: 43c4b802d8b5256cf1f4379e9cd10b329be6d3e2
+  LTMorphingLabel: 9d1c38bd602fe505f264d3e9fdb780995142f275
+  Moya: a725035953bc1c0eb1be505ab903984501d82440
+  NVActivityIndicatorView: ec7440a57af2450319d3a4181cca7da6fc127064
+  ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
+  PromiseKit: 162f56c89aae9989ffc14476a5f821af17c3f4ba
+  RAMAnimatedTabBarController: 78f63fd6411958f269cc8af0a906002134d39bf5
+  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  SkeletonView: 60d6ce7edb0cb4c7758db33c74add50392b3c475
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  Spring: 3c7666eccefdeb87140008dc81043f89f8dbb787
+  SwifterSwift: 812ffec6f301922f5430e75be3f2939ea3a80024
+  SwiftLint: 3207c1faa2240bf8973b191820a116113cd11073
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  SwiftyUserDefaults: cebe0ff9472f52699772a514b6f7155861d8069b
+  SwipeCellKit: d8f2617538ce3021cb0a11d1b93856a06a2f2e20
+  TextFieldEffects: bf9e9cac7cb1a97d632fbcd0724bb6347dd86633
+
+PODFILE CHECKSUM: 538541a17887a66b2ea19bec96698d2ecf58dd1a
+
+COCOAPODS: 1.5.3

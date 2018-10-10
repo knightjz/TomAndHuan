@@ -1,0 +1,52 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'HT Love' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for HT Love
+  #网络数据
+  pod 'SwiftyJSON', '~> 4.0'
+  pod 'ObjectMapper', '~> 3.3'
+  pod 'ReachabilitySwift'
+  pod 'Alamofire', '~> 4.7'
+
+  pod 'SnapKit', '~> 4.0.0'
+  pod 'Kingfisher', '~> 4.0'
+  pod 'SwiftyUserDefaults', '4.0.0-alpha.1'
+
+  #UI
+  pod 'Hero'
+  pod 'Spring', :git => 'https://github.com/MengTo/Spring.git'
+  pod 'RAMAnimatedTabBarController'
+  pod 'FoldingCell'
+  pod 'NVActivityIndicatorView'
+  pod 'LTMorphingLabel'
+  pod "SkeletonView"
+  pod 'TextFieldEffects'
+  pod 'SwipeCellKit'
+
+  #swiftInt
+  pod 'SwiftLint'
+
+  pod "PromiseKit", "~> 6.0"
+  pod 'Moya', '~> 11.0'
+
+  #enxtension
+  pod 'SwifterSwift'
+
+  #加密
+  pod 'CryptoSwift'
+
+  target 'HT LoveTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'HT LoveUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
