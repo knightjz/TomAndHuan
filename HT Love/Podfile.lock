@@ -1,9 +1,17 @@
 PODS:
   - Alamofire (4.7.3)
+  - Crashlytics (3.10.9):
+    - Fabric (~> 1.7.13)
   - CryptoSwift (0.12.0)
+  - Fabric (1.7.13)
   - FoldingCell (4.0.1)
-  - Hero (1.3.1)
+  - Hero (1.4.0)
   - Kingfisher (4.10.0)
+  - LeanCloud (11.0.1):
+    - LeanCloud/Storage (= 11.0.1)
+  - LeanCloud/Storage (11.0.1):
+    - Alamofire (~> 4.7)
+  - lottie-ios (2.5.0)
   - LTMorphingLabel (0.5.7)
   - Moya (11.0.2):
     - Moya/Core (= 11.0.2)
@@ -54,11 +62,15 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 4.7)
+  - Crashlytics
   - CryptoSwift
+  - Fabric
   - FoldingCell
-  - Hero
+  - Hero (from `https://github.com/HeroTransitions/Hero.git`, commit `85be93ff80247296ee17f340bef73cfeb18c9fa0`)
   - Kingfisher (~> 4.0)
-  - LTMorphingLabel
+  - LeanCloud
+  - lottie-ios
+  - LTMorphingLabel (from `https://github.com/lexrus/LTMorphingLabel.git`, commit `facd857b77ead0a1c094dfa6634a6e329c6bffff`)
   - Moya (~> 11.0)
   - NVActivityIndicatorView
   - ObjectMapper (~> 3.3)
@@ -78,11 +90,13 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - Crashlytics
     - CryptoSwift
+    - Fabric
     - FoldingCell
-    - Hero
     - Kingfisher
-    - LTMorphingLabel
+    - LeanCloud
+    - lottie-ios
     - Moya
     - NVActivityIndicatorView
     - ObjectMapper
@@ -100,20 +114,36 @@ SPEC REPOS:
     - TextFieldEffects
 
 EXTERNAL SOURCES:
+  Hero:
+    :commit: 85be93ff80247296ee17f340bef73cfeb18c9fa0
+    :git: https://github.com/HeroTransitions/Hero.git
+  LTMorphingLabel:
+    :commit: facd857b77ead0a1c094dfa6634a6e329c6bffff
+    :git: https://github.com/lexrus/LTMorphingLabel.git
   Spring:
     :git: https://github.com/MengTo/Spring.git
 
 CHECKOUT OPTIONS:
+  Hero:
+    :commit: 85be93ff80247296ee17f340bef73cfeb18c9fa0
+    :git: https://github.com/HeroTransitions/Hero.git
+  LTMorphingLabel:
+    :commit: facd857b77ead0a1c094dfa6634a6e329c6bffff
+    :git: https://github.com/lexrus/LTMorphingLabel.git
   Spring:
     :commit: d507c1244f944dcf675aa46fe024e2b2f40a662c
     :git: https://github.com/MengTo/Spring.git
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  Crashlytics: 55e24fc23989680285a21cb1146578d9d18e432c
   CryptoSwift: 1c07ca50843dd48bc54e6ea53d7a4dba3b645716
+  Fabric: 25d0963b691fc97be566392243ff0ecef5a68338
   FoldingCell: acf29a96085b7ab96234be75d543f5640ead0b3c
-  Hero: 1c3c625ba05856f305d29f5c270f8766c5ff2df7
+  Hero: bac92350d7201a1a940003e0767c7b52ce7c99a1
   Kingfisher: 43c4b802d8b5256cf1f4379e9cd10b329be6d3e2
+  LeanCloud: f9776746a4cd62bdb441f2768017a91c9516d219
+  lottie-ios: d699fdee68d7b63e721d949388b015fef1aaa4ac
   LTMorphingLabel: 9d1c38bd602fe505f264d3e9fdb780995142f275
   Moya: a725035953bc1c0eb1be505ab903984501d82440
   NVActivityIndicatorView: ec7440a57af2450319d3a4181cca7da6fc127064
@@ -132,6 +162,6 @@ SPEC CHECKSUMS:
   SwipeCellKit: d8f2617538ce3021cb0a11d1b93856a06a2f2e20
   TextFieldEffects: bf9e9cac7cb1a97d632fbcd0724bb6347dd86633
 
-PODFILE CHECKSUM: 538541a17887a66b2ea19bec96698d2ecf58dd1a
+PODFILE CHECKSUM: af5f3c7f7ec99817bfb604aec0d37cb765a44bd5
 
 COCOAPODS: 1.5.3

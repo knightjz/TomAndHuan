@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E4239585CA0708C7A0D870C22BB9DC5A"
+               BlueprintIdentifier = "F582D00BBD7E7E55FF26DF26D7C9142F"
                BlueprintName = "SkeletonView"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "SkeletonView.framework">

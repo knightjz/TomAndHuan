@@ -17,12 +17,16 @@ target 'HT Love' do
   pod 'SwiftyUserDefaults', '4.0.0-alpha.1'
 
   #UI
-  pod 'Hero'
+  #pod 'Hero'
+  pod 'Hero' , :git => 'https://github.com/HeroTransitions/Hero.git', :commit => '85be93ff80247296ee17f340bef73cfeb18c9fa0'
   pod 'Spring', :git => 'https://github.com/MengTo/Spring.git'
   pod 'RAMAnimatedTabBarController'
   pod 'FoldingCell'
   pod 'NVActivityIndicatorView'
-  pod 'LTMorphingLabel'
+  #pod 'LTMorphingLabel'
+  pod 'LTMorphingLabel' , :git => 'https://github.com/lexrus/LTMorphingLabel.git', :commit => 'facd857b77ead0a1c094dfa6634a6e329c6bffff'
+  pod 'lottie-ios'
+
   pod "SkeletonView"
   pod 'TextFieldEffects'
   pod 'SwipeCellKit'
@@ -38,6 +42,15 @@ target 'HT Love' do
 
   #加密
   pod 'CryptoSwift'
+
+  #leanclound
+  #pod 'AVOSCloud'               # 数据存储、短信、云引擎调用等基础服务模块
+  #pod 'AVOSCloudIM'             # 即时通讯模块
+  pod 'LeanCloud'
+
+  #fabric
+  pod 'Fabric'
+  pod 'Crashlytics'
 
   target 'HT LoveTests' do
     inherit! :search_paths

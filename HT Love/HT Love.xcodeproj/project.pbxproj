@@ -7,12 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38125298216E0468001D078D /* HTNavgationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38125297216E0468001D078D /* HTNavgationController.swift */; };
+		3812529A216E0479001D078D /* HTBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38125299216E0479001D078D /* HTBaseViewController.swift */; };
+		3812529C216E0521001D078D /* HTTabarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3812529B216E0521001D078D /* HTTabarController.swift */; };
+		382769D5216F439700A212BF /* tabbar-mem@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 382769CF216F439700A212BF /* tabbar-mem@3x.png */; };
+		382769D6216F439700A212BF /* tabbar-mem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 382769D0216F439700A212BF /* tabbar-mem@2x.png */; };
+		382769D7216F439700A212BF /* tabbar-setting@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 382769D1216F439700A212BF /* tabbar-setting@3x.png */; };
+		382769D8216F439700A212BF /* tabbar-setting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 382769D2216F439700A212BF /* tabbar-setting@2x.png */; };
+		382769D9216F439700A212BF /* tabbar-chat@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 382769D3216F439700A212BF /* tabbar-chat@3x.png */; };
+		382769DA216F439700A212BF /* tabbar-chat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 382769D4216F439700A212BF /* tabbar-chat@2x.png */; };
+		382769E3216F54AA00A212BF /* HTLeadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382769E1216F54AA00A212BF /* HTLeadingViewController.swift */; };
+		382769E4216F54AA00A212BF /* HTLeadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 382769E2216F54AA00A212BF /* HTLeadingViewController.xib */; };
+		382769E7216F54B900A212BF /* HTLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382769E5216F54B900A212BF /* HTLoginViewController.swift */; };
+		382769E8216F54B900A212BF /* HTLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 382769E6216F54B900A212BF /* HTLoginViewController.xib */; };
+		382769EB216F568A00A212BF /* HTCompMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382769E9216F568A00A212BF /* HTCompMatchViewController.swift */; };
+		382769EC216F568A00A212BF /* HTCompMatchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 382769EA216F568A00A212BF /* HTCompMatchViewController.xib */; };
+		382769EE216F5F9100A212BF /* ConfigHreaderSwiftFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382769ED216F5F9100A212BF /* ConfigHreaderSwiftFile.swift */; };
+		382769F1216F61B800A212BF /* emotion_icon_smile.json in Resources */ = {isa = PBXBuildFile; fileRef = 382769EF216F61B700A212BF /* emotion_icon_smile.json */; };
+		382769F2216F61B800A212BF /* play_and_like_it.json in Resources */ = {isa = PBXBuildFile; fileRef = 382769F0216F61B800A212BF /* play_and_like_it.json */; };
 		389333DC216DAB2900520A94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389333DB216DAB2900520A94 /* AppDelegate.swift */; };
 		389333E1216DAB2900520A94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389333DF216DAB2900520A94 /* Main.storyboard */; };
 		389333E3216DAB2A00520A94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 389333E2216DAB2A00520A94 /* Assets.xcassets */; };
 		389333E6216DAB2A00520A94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389333E4216DAB2A00520A94 /* LaunchScreen.storyboard */; };
 		389333F1216DAB2A00520A94 /* HT_LoveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389333F0216DAB2A00520A94 /* HT_LoveTests.swift */; };
 		389333FC216DAB2A00520A94 /* HT_LoveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389333FB216DAB2A00520A94 /* HT_LoveUITests.swift */; };
+		38997B37216EFD98007D550A /* HTBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38997B36216EFD98007D550A /* HTBaseModel.swift */; };
+		38997B39216EFE9B007D550A /* HTChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38997B38216EFE9B007D550A /* HTChatViewController.swift */; };
+		38997B3B216EFF33007D550A /* HTInteractiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38997B3A216EFF33007D550A /* HTInteractiveViewController.swift */; };
+		38997B3D216EFF41007D550A /* HTSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38997B3C216EFF41007D550A /* HTSettingViewController.swift */; };
 		4EA895075147E17080ADED15 /* Pods_HT_Love.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D43F6E345F3DB358C8F8156D /* Pods_HT_Love.framework */; };
 		7ADC9F654A11DB8A8F4DA863 /* Pods_HT_LoveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A8A6702C9064AE90630E84 /* Pods_HT_LoveTests.framework */; };
 		B2EE8BE1756371B197437B31 /* Pods_HT_LoveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5448B32AAB5224FDF30BDB05 /* Pods_HT_LoveUITests.framework */; };
@@ -37,6 +59,25 @@
 
 /* Begin PBXFileReference section */
 		1E479FF502BB407CAFD06C01 /* Pods-HT Love.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HT Love.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HT Love/Pods-HT Love.debug.xcconfig"; sourceTree = "<group>"; };
+		38125297216E0468001D078D /* HTNavgationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTNavgationController.swift; sourceTree = "<group>"; };
+		38125299216E0479001D078D /* HTBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTBaseViewController.swift; sourceTree = "<group>"; };
+		3812529B216E0521001D078D /* HTTabarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTabarController.swift; sourceTree = "<group>"; };
+		382769CF216F439700A212BF /* tabbar-mem@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-mem@3x.png"; sourceTree = "<group>"; };
+		382769D0216F439700A212BF /* tabbar-mem@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-mem@2x.png"; sourceTree = "<group>"; };
+		382769D1216F439700A212BF /* tabbar-setting@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-setting@3x.png"; sourceTree = "<group>"; };
+		382769D2216F439700A212BF /* tabbar-setting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-setting@2x.png"; sourceTree = "<group>"; };
+		382769D3216F439700A212BF /* tabbar-chat@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-chat@3x.png"; sourceTree = "<group>"; };
+		382769D4216F439700A212BF /* tabbar-chat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-chat@2x.png"; sourceTree = "<group>"; };
+		382769DB216F4A6000A212BF /* HTHeaderBridgeFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTHeaderBridgeFile.h; sourceTree = "<group>"; };
+		382769E1216F54AA00A212BF /* HTLeadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTLeadingViewController.swift; sourceTree = "<group>"; };
+		382769E2216F54AA00A212BF /* HTLeadingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HTLeadingViewController.xib; sourceTree = "<group>"; };
+		382769E5216F54B900A212BF /* HTLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTLoginViewController.swift; sourceTree = "<group>"; };
+		382769E6216F54B900A212BF /* HTLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HTLoginViewController.xib; sourceTree = "<group>"; };
+		382769E9216F568A00A212BF /* HTCompMatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTCompMatchViewController.swift; sourceTree = "<group>"; };
+		382769EA216F568A00A212BF /* HTCompMatchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HTCompMatchViewController.xib; sourceTree = "<group>"; };
+		382769ED216F5F9100A212BF /* ConfigHreaderSwiftFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigHreaderSwiftFile.swift; sourceTree = "<group>"; };
+		382769EF216F61B700A212BF /* emotion_icon_smile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = emotion_icon_smile.json; sourceTree = "<group>"; };
+		382769F0216F61B800A212BF /* play_and_like_it.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = play_and_like_it.json; sourceTree = "<group>"; };
 		389333D8216DAB2800520A94 /* HT Love.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HT Love.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		389333DB216DAB2900520A94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		389333E0216DAB2900520A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,6 +90,10 @@
 		389333F7216DAB2A00520A94 /* HT LoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HT LoveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		389333FB216DAB2A00520A94 /* HT_LoveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HT_LoveUITests.swift; sourceTree = "<group>"; };
 		389333FD216DAB2A00520A94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38997B36216EFD98007D550A /* HTBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTBaseModel.swift; sourceTree = "<group>"; };
+		38997B38216EFE9B007D550A /* HTChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTChatViewController.swift; sourceTree = "<group>"; };
+		38997B3A216EFF33007D550A /* HTInteractiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTInteractiveViewController.swift; sourceTree = "<group>"; };
+		38997B3C216EFF41007D550A /* HTSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTSettingViewController.swift; sourceTree = "<group>"; };
 		51CC2C1604B47C044D549767 /* Pods-HT LoveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HT LoveUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HT LoveUITests/Pods-HT LoveUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5448B32AAB5224FDF30BDB05 /* Pods_HT_LoveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HT_LoveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		685B1286C1723613DA6D5CA3 /* Pods-HT LoveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HT LoveUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HT LoveUITests/Pods-HT LoveUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -90,6 +135,11 @@
 		38125287216E0108001D078D /* Config */ = {
 			isa = PBXGroup;
 			children = (
+				382769EF216F61B700A212BF /* emotion_icon_smile.json */,
+				382769F0216F61B800A212BF /* play_and_like_it.json */,
+				38997B3E216F1DE8007D550A /* pics */,
+				382769DB216F4A6000A212BF /* HTHeaderBridgeFile.h */,
+				382769ED216F5F9100A212BF /* ConfigHreaderSwiftFile.swift */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -97,6 +147,7 @@
 		38125288216E0108001D078D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				382769DD216F546900A212BF /* Login */,
 				38125289216E0108001D078D /* Chat */,
 				3812528D216E0108001D078D /* Interactive */,
 				38125291216E0108001D078D /* Setting */,
@@ -117,6 +168,7 @@
 		3812528A216E0108001D078D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				38997B38216EFE9B007D550A /* HTChatViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -148,6 +200,7 @@
 		3812528E216E0108001D078D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				38997B3A216EFF33007D550A /* HTInteractiveViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -179,6 +232,7 @@
 		38125292216E0108001D078D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				38997B3C216EFF41007D550A /* HTSettingViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -207,8 +261,49 @@
 		38125296216E0108001D078D /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				38125297216E0468001D078D /* HTNavgationController.swift */,
+				38125299216E0479001D078D /* HTBaseViewController.swift */,
+				3812529B216E0521001D078D /* HTTabarController.swift */,
+				38997B36216EFD98007D550A /* HTBaseModel.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		382769DD216F546900A212BF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				382769DE216F546900A212BF /* Controller */,
+				382769DF216F546900A212BF /* Model */,
+				382769E0216F546900A212BF /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		382769DE216F546900A212BF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				382769E1216F54AA00A212BF /* HTLeadingViewController.swift */,
+				382769E2216F54AA00A212BF /* HTLeadingViewController.xib */,
+				382769E5216F54B900A212BF /* HTLoginViewController.swift */,
+				382769E6216F54B900A212BF /* HTLoginViewController.xib */,
+				382769E9216F568A00A212BF /* HTCompMatchViewController.swift */,
+				382769EA216F568A00A212BF /* HTCompMatchViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		382769DF216F546900A212BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		382769E0216F546900A212BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		389333CF216DAB2800520A94 = {
@@ -222,6 +317,7 @@
 				39D704670E77ECDB71793B3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
+			wrapsLines = 1;
 		};
 		389333D9216DAB2800520A94 /* Products */ = {
 			isa = PBXGroup;
@@ -265,6 +361,19 @@
 				389333FD216DAB2A00520A94 /* Info.plist */,
 			);
 			path = "HT LoveUITests";
+			sourceTree = "<group>";
+		};
+		38997B3E216F1DE8007D550A /* pics */ = {
+			isa = PBXGroup;
+			children = (
+				382769D4216F439700A212BF /* tabbar-chat@2x.png */,
+				382769D3216F439700A212BF /* tabbar-chat@3x.png */,
+				382769D0216F439700A212BF /* tabbar-mem@2x.png */,
+				382769CF216F439700A212BF /* tabbar-mem@3x.png */,
+				382769D2216F439700A212BF /* tabbar-setting@2x.png */,
+				382769D1216F439700A212BF /* tabbar-setting@3x.png */,
+			);
+			path = pics;
 			sourceTree = "<group>";
 		};
 		39D704670E77ECDB71793B3D /* Frameworks */ = {
@@ -356,6 +465,7 @@
 		389333D0216DAB2800520A94 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HT;
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Tom;
@@ -398,9 +508,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				382769DA216F439700A212BF /* tabbar-chat@2x.png in Resources */,
+				382769F1216F61B800A212BF /* emotion_icon_smile.json in Resources */,
+				382769E8216F54B900A212BF /* HTLoginViewController.xib in Resources */,
 				389333E6216DAB2A00520A94 /* LaunchScreen.storyboard in Resources */,
+				382769D9216F439700A212BF /* tabbar-chat@3x.png in Resources */,
+				382769D6216F439700A212BF /* tabbar-mem@2x.png in Resources */,
+				382769EC216F568A00A212BF /* HTCompMatchViewController.xib in Resources */,
 				389333E3216DAB2A00520A94 /* Assets.xcassets in Resources */,
 				389333E1216DAB2900520A94 /* Main.storyboard in Resources */,
+				382769D8216F439700A212BF /* tabbar-setting@2x.png in Resources */,
+				382769D7216F439700A212BF /* tabbar-setting@3x.png in Resources */,
+				382769F2216F61B800A212BF /* play_and_like_it.json in Resources */,
+				382769D5216F439700A212BF /* tabbar-mem@3x.png in Resources */,
+				382769E4216F54AA00A212BF /* HTLeadingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +573,7 @@
 				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/LTMorphingLabel/LTMorphingLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/LeanCloud/LeanCloud.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
@@ -467,6 +589,7 @@
 				"${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework",
 				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
 				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -476,6 +599,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LTMorphingLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LeanCloud.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
@@ -491,6 +615,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUserDefaults.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -540,7 +665,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3812529C216E0521001D078D /* HTTabarController.swift in Sources */,
+				38997B3D216EFF41007D550A /* HTSettingViewController.swift in Sources */,
+				382769E3216F54AA00A212BF /* HTLeadingViewController.swift in Sources */,
 				389333DC216DAB2900520A94 /* AppDelegate.swift in Sources */,
+				38997B37216EFD98007D550A /* HTBaseModel.swift in Sources */,
+				382769EE216F5F9100A212BF /* ConfigHreaderSwiftFile.swift in Sources */,
+				382769EB216F568A00A212BF /* HTCompMatchViewController.swift in Sources */,
+				3812529A216E0479001D078D /* HTBaseViewController.swift in Sources */,
+				38997B39216EFE9B007D550A /* HTChatViewController.swift in Sources */,
+				38125298216E0468001D078D /* HTNavgationController.swift in Sources */,
+				382769E7216F54B900A212BF /* HTLoginViewController.swift in Sources */,
+				38997B3B216EFF33007D550A /* HTInteractiveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -723,7 +859,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.TomAndHuan.HT-Love";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/HT Love/Config/HTHeaderBridgeFile.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -742,7 +879,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.TomAndHuan.HT-Love";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/HT Love/Config/HTHeaderBridgeFile.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
